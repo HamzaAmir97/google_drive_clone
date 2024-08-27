@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@hookform/resolvers": "^5.1.1",
+    "@radix-ui/react-alert-dialog": "^1.1.14",
     "@radix-ui/react-label": "^2.1.7",
     "@radix-ui/react-slot": "^1.2.3",
     "class-variance-authority": "^0.7.1",
@@ -24,8 +25,8 @@
     "zod": "^3.25.67"
   },
   "overrides": {
-    "react":"$react",
-    "react-dom":"$react-dom"
+    "react": "$react",
+    "react-dom": "$react-dom"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
