@@ -19,7 +19,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { useRouter } from "next/navigation";
-import { verifySecret } from "@/lib/actions/user.actions";
+import { sendEmailOTP, verifySecret } from "@/lib/actions/user.actions";
 
 const OtpModal = ({
   accountId,
@@ -53,7 +53,7 @@ const OtpModal = ({
   };
 
   const handleResendOtp = async () => {
-    // await sendEmailOTP({ email });
+    await sendEmailOTP({ email });
   };
 
   return (
