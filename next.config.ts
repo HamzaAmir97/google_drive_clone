@@ -26,6 +26,10 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "cloud.appwrite.io",
       },
+      {
+        protocol: "https",
+        hostname: "www.shutterstock.com", // ✅ مضاف لدعم صور Shutterstock
+      },
     ],
   },
 };
