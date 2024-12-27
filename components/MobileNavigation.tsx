@@ -14,6 +14,7 @@ import { navItems } from "@/constants";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
+import { Separator } from "@radix-ui/react-separator";
 
 
 interface Props {
@@ -25,11 +26,11 @@ interface Props {
 }
 
 const MobileNavigation = ({
-  $id: ownerId,
-  accountId,
-  fullName,
-  avatar,
-  email,
+   $id: ownerId,
+   accountId,
+   fullName,
+   avatar,
+   email,
 }: Props) => {
   const [open, setOpen] = useState(false);
   const pathname = usePathname();
@@ -99,7 +100,7 @@ const MobileNavigation = ({
           </nav>
 
           <Separator className="my-5 bg-light-200/20" />
-
+{/* 
           <div className="flex flex-col justify-between gap-5 pb-5">
             <FileUploader ownerId={ownerId} accountId={accountId} />
             <Button
@@ -115,7 +116,7 @@ const MobileNavigation = ({
               />
               <p>Logout</p>
             </Button>
-          </div>
+          </div> */}
         </SheetContent>
       </Sheet>
     </header>
