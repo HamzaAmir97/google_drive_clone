@@ -7,12 +7,13 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import Image from "next/image";
-import React, { useState } from "react";
+import React, { Component, useState } from "react";
 import { usePathname } from "next/navigation";
 
 import { navItems } from "@/constants";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
+
 import { Button } from "@/components/ui/button";
 import { Separator } from "@radix-ui/react-separator";
 
@@ -100,13 +101,13 @@ const MobileNavigation = ({
           </nav>
 
           <Separator className="my-5 bg-light-200/20" />
-{/* 
+
           <div className="flex flex-col justify-between gap-5 pb-5">
-            <FileUploader ownerId={ownerId} accountId={accountId} />
+            {/* <FileUploader ownerId={ownerId} accountId={accountId} /> */}
             <Button
               type="submit"
               className="mobile-sign-out-button"
-              onClick={async () => await signOutUser()}
+              // onClick={async () => await signOutUser()}
             >
               <Image
                 src="/assets/icons/logout.svg"
@@ -116,7 +117,7 @@ const MobileNavigation = ({
               />
               <p>Logout</p>
             </Button>
-          </div> */}
+          </div> 
         </SheetContent>
       </Sheet>
     </header>
