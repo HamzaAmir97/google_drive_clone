@@ -1,4 +1,6 @@
+import Card from '@/components/Card';
 import Sort from '@/components/Sort';
+import { Models } from 'node-appwrite';
 import React from 'react'
 
 const page = async ({params }:SearchParamProps) => {
@@ -30,6 +32,7 @@ const page = async ({params }:SearchParamProps) => {
         <section className="file-list">
           {files.documents.map((file: Models.Document) => (
             <Card key={file.$id} file={file} />
+            
           ))}
         </section>
       ) : (
