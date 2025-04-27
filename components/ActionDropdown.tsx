@@ -22,6 +22,7 @@ import { usePathname } from "next/navigation";
 import { Dialog, DialogContent, DialogTitle } from "@radix-ui/react-dialog";
 import { AlertDialogFooter, AlertDialogHeader } from "./ui/alert-dialog";
 import { deleteFile, renameFile, updateFileUsers } from "@/lib/actions/file.action";
+import { FileDetails, ShareInput } from "./ActionsModalContent";
 
 const ActionDropdown = ({ file }: { file: Models.Document }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
