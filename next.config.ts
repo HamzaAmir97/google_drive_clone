@@ -24,11 +24,11 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: "https",
-        hostname: "cloud.appwrite.io",
+        hostname: "fra.cloud.appwrite.io", // ✅ Appwrite domain added
       },
       {
         protocol: "https",
-        hostname: "www.shutterstock.com", // ✅ مضاف لدعم صور Shutterstock
+        hostname: "www.shutterstock.com",
       },
     ],
   },
