@@ -10,6 +10,10 @@ import { Models } from "node-appwrite";
 import Thumbnail from "@/components/Thumbnail";
 import FormattedDateTime from "@/components/FormattedDateTime";
 import { getFiles } from "@/lib/actions/file.action";
+import {useDebounce} from 'use-debounce';
+
+
+
 
 const Search = () => {
   const [query, setQuery] = useState("");
@@ -19,7 +23,7 @@ const Search = () => {
   const [open, setOpen] = useState(false);
   const router = useRouter();
   const path = usePathname();
-  // const [debouncedQuery] = useDebounce(query, 300);
+  const [debouncedQuery] = useDebounce(query, 300);
 
   useEffect(() => {
     const fetchFiles = async () => {
