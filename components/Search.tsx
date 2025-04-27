@@ -37,20 +37,20 @@ const Search = () => {
     fetchFiles();
   }, [debouncedQuery]);
 
-  // useEffect(() => {
-  //   if (!searchQuery) {
-  //     setQuery("");
-  //   }
-  // }, [searchQuery]);
+  useEffect(() => {
+    if (!searchQuery) {
+      setQuery("");
+    }
+  }, [searchQuery]);
 
-  // const handleClickItem = (file: Models.Document) => {
-  //   setOpen(false);
-  //   setResults([]);
+  const handleClickItem = (file: Models.Document) => {
+    setOpen(false);
+    setResults([]);
 
-  //   router.push(
-  //     `/${file.type === "video" || file.type === "audio" ? "media" : file.type + "s"}?query=${query}`,
-  //   );
-  // };
+    router.push(
+      `/${file.type === "video" || file.type === "audio" ? "media" : file.type + "s"}?query=${query}`,
+    );
+  };
 
   return (
     <div className="search">
