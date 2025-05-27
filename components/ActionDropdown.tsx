@@ -82,7 +82,7 @@ const ActionDropdown = ({ file }: { file: Models.Document }) => {
 
     return (
       <DialogContent className="shad-dialog button">
-        <AlertDialogHeader className="flex flex-col gap-3">
+        <DialogHeader className="flex flex-col gap-3">
           <DialogTitle className="text-center text-light-100">
             {label}
           </DialogTitle>
@@ -107,9 +107,9 @@ const ActionDropdown = ({ file }: { file: Models.Document }) => {
               <span className="delete-file-name">{file.name}</span>?
             </p>
           )}
-        </AlertDialogHeader>
+        </DialogHeader>
         {["rename", "delete", "share"].includes(value) && (
-          <AlertDialogFooter className="flex flex-col gap-3 md:flex-row">
+          <DialogFooter className="flex flex-col gap-3 md:flex-row">
             <Button onClick={closeAllModals} className="modal-cancel-button">
               Cancel
             </Button>
@@ -125,12 +125,11 @@ const ActionDropdown = ({ file }: { file: Models.Document }) => {
                 />
               )}
             </Button>
-          </AlertDialogFooter>
+          </DialogFooter>
         )}
       </DialogContent>
     );
   };
-
   return (
     <Dialog open={isModalOpen} onOpenChange={setIsModalOpen}>
       <DropdownMenu open={isDropdownOpen} onOpenChange={setIsDropdownOpen}>
