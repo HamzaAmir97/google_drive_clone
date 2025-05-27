@@ -8,6 +8,7 @@ import { Thumbnail } from "@/components/Thumbnail";
 import { Separator } from "@/components/ui/separator";
 import { convertFileSize, getUsageSummary } from "@/lib/utils";
 import { getFiles, getTotalSpaceUsed } from "@/lib/actions/file.action";
+import { Chart } from "@/components/Chart";
 
 const Dashboard = async () => {
   // Parallel requests
