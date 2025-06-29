@@ -1,8 +1,8 @@
 # 🗄️ Google Drive Clone
 
-<p align="center">
-  <img src="/screenshots/banner.png" alt="Zentry Drive" width="100%" />
-</p>
+<div align="center">
+  <img src="/screenshots/banner.png" alt=" Drive" width="100%" />
+</div>
 
 ![Next.js](https://img.shields.io/badge/Next.js-000000?logo=next.js&logoColor=white)
 ![Appwrite](https://img.shields.io/badge/Appwrite-F02E65?logo=appwrite&logoColor=white)
