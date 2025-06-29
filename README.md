@@ -6,22 +6,19 @@
 
 ## 📖 Screenshots
 
-<div align="center">
-
 
 <div align="center">
   <table>
     <tr>
-      <td><img src="/screenshots/clone (1).png" alt="Screenshot 1" width="200"/></td>
-      <td><img src="/screenshots/clone (2).png" alt="Screenshot 2" width="200"/></td>
-      <td><img src="/screenshots/clone(3).png" alt="Screenshot 3" width="200"/></td>
+      <td><img src="/screenshots/clone  (1).png" alt="Screenshot 1" width="200"/></td>
+      <td><img src="/screenshots/clone  (2).png" alt="Screenshot 2" width="200"/></td>
+      <td><img src="/screenshots/clone  (3).png" alt="Screenshot 3" width="200"/></td>
       <td><img src="/screenshots/clone (4).png" alt="Screenshot 4" width="200"/></td>
       <td><img src="/screenshots/clone (5).png" alt="Screenshot 5" width="200"/></td>
     </tr>
     <tr>
-      <td><img src="/screenshots/clone (6).png" alt="Screenshot 6" width="200"/></td>
-      <td><img src="/screenshots/clone (7).png" alt="Screenshot 7" width="200"/></td>
-      <td><img src="/screenshot
+     </table>
+       </div>
 
 ![Next.js](https://img.shields.io/badge/Next.js-000000?logo=next.js&logoColor=white)
 ![Appwrite](https://img.shields.io/badge/Appwrite-F02E65?logo=appwrite&logoColor=white)
