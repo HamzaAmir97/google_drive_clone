@@ -3,13 +3,16 @@
 <div align="center">
   <img src="/screenshots/banner.png" alt=" Drive" width="100%" />
 </div>
-<div align="center">
+
+
 ![Next.js](https://img.shields.io/badge/Next.js-000000?logo=next.js&logoColor=white)
 ![Appwrite](https://img.shields.io/badge/Appwrite-F02E65?logo=appwrite&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
 ![Radix UI](https://img.shields.io/badge/Radix_UI-black?logo=radixui&logoColor=white)
-</div>
+
+
+
 ## 📚 Table of Contents
 - [👋 Introduction](#-introduction)
 - [⚙️ Technologies Used](#️-technologies-used)
