@@ -51,7 +51,7 @@ This project is a modern Google Drive clone built with Next.js and Appwrite. It 
     - [React 19](https://react.dev/) - UI library
     - [TypeScript](https://www.typescriptlang.org/) - Type safety
     - [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
-    - [Shadcn UI](https://www.Shadcn-ui.com/) - Unstyled, accessible UI components
+    - [Shadcn UI](https://www.shadcn.com/) - Unstyled, accessible UI components
    
 
 - **Backend**:
