@@ -4,6 +4,24 @@
   <img src="/screenshots/banner.png" alt=" Drive" width="100%" />
 </div>
 
+## 📖 Screenshots
+
+<div align="center">
+
+
+<div align="center">
+  <table>
+    <tr>
+      <td><img src="/screenshots/clone (1).png" alt="Screenshot 1" width="200"/></td>
+      <td><img src="/screenshots/clone (2).png" alt="Screenshot 2" width="200"/></td>
+      <td><img src="/screenshots/clone(3).png" alt="Screenshot 3" width="200"/></td>
+      <td><img src="/screenshots/clone (4).png" alt="Screenshot 4" width="200"/></td>
+      <td><img src="/screenshots/clone (5).png" alt="Screenshot 5" width="200"/></td>
+    </tr>
+    <tr>
+      <td><img src="/screenshots/clone (6).png" alt="Screenshot 6" width="200"/></td>
+      <td><img src="/screenshots/clone (7).png" alt="Screenshot 7" width="200"/></td>
+      <td><img src="/screenshot
 
 ![Next.js](https://img.shields.io/badge/Next.js-000000?logo=next.js&logoColor=white)
 ![Appwrite](https://img.shields.io/badge/Appwrite-F02E65?logo=appwrite&logoColor=white)
@@ -33,8 +51,8 @@ This project is a modern Google Drive clone built with Next.js and Appwrite. It 
     - [React 19](https://react.dev/) - UI library
     - [TypeScript](https://www.typescriptlang.org/) - Type safety
     - [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
-    - [Radix UI](https://www.radix-ui.com/) - Unstyled, accessible UI components
-    - [Recharts](https://recharts.org/) - Charting library for data visualization
+    - [Shadcn UI](https://www.Shadcn-ui.com/) - Unstyled, accessible UI components
+   
 
 - **Backend**:
     - [Appwrite](https://appwrite.io/) - Backend as a Service (BaaS)
@@ -55,7 +73,7 @@ This project is a modern Google Drive clone built with Next.js and Appwrite. It 
     - Secure session management
 
 - **File Management**:
-    - Upload files with drag-and-drop functionality
+    - Upload and Download files 
     - Organize files by type (documents, images, videos, etc.)
     - Search and sort files by name, date, and size
     - Preview file thumbnails
@@ -63,7 +81,6 @@ This project is a modern Google Drive clone built with Next.js and Appwrite. It 
 
 - **User Interface**:
     - Responsive design for mobile and desktop
-    - Dark/light mode support
     - Interactive charts for storage usage visualization
     - Intuitive navigation with sidebar and mobile menu
 
@@ -145,23 +162,3 @@ The easiest way to deploy this Next.js app is to use the [Vercel Platform](https
 ### Alternative Deployment Options
 - **Docker**: A Dockerfile can be created to containerize the application.
 - **Self-hosted**: Build the application with `npm run build` and start it with `npm start`.
-
-## 📖 Screenshots
-
-<div align="center">
-  <img src="/screenshots/zentry (11).png" alt="Banner" width="100%" />
-</div>
-
-<div align="center">
-  <table>
-    <tr>
-      <td><img src="/screenshots/zentry (1).png" alt="Screenshot 1" width="200"/></td>
-      <td><img src="/screenshots/zentry (2).png" alt="Screenshot 2" width="200"/></td>
-      <td><img src="/screenshots/zentry (3).png" alt="Screenshot 3" width="200"/></td>
-      <td><img src="/screenshots/zentry (4).png" alt="Screenshot 4" width="200"/></td>
-      <td><img src="/screenshots/zentry (5).png" alt="Screenshot 5" width="200"/></td>
-    </tr>
-    <tr>
-      <td><img src="/screenshots/zentry (6).png" alt="Screenshot 6" width="200"/></td>
-      <td><img src="/screenshots/zentry (7).png" alt="Screenshot 7" width="200"/></td>
-      <td><img src="/screenshot
